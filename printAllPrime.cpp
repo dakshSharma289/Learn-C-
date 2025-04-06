@@ -17,7 +17,7 @@ bool checkPrime(int num){
 void printAllPrime(int range){
     for (int i = 1; i != range; i++){
         if (checkPrime(i)){
-            cout << i;
+            cout << i << endl;
         }
     }
 }
@@ -28,6 +28,6 @@ int main(){
     cin >> number;
 
     printAllPrime(number);
-    
+
     return 0;
 }
