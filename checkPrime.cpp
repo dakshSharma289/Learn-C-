@@ -2,7 +2,7 @@
 using namespace std;
 
 bool checkPrime(int num){
-    bool result;
+    bool result = true;
     for(int factor = 2; factor < num; factor++){
         if(num % factor){
             continue;
@@ -15,6 +15,7 @@ bool checkPrime(int num){
 
 int main (){
     int number;
+    cout << "enter the number: ";
     cin >> number;
 
     if (checkPrime(number)){
