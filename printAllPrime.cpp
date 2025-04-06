@@ -23,5 +23,11 @@ void printAllPrime(int range){
 }
 
 int main(){
+    int number;
+    cout << "enter the number: ";
+    cin >> number;
+
+    printAllPrime(number);
+    
     return 0;
 }
